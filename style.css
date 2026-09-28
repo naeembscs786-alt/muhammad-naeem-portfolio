@@ -57,12 +57,12 @@ header {
 header > * {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 1.35rem 5vw;
+    padding: 0.7rem 5vw;
 }
 
 header h1 {
     font-family: "Cormorant Garamond", Georgia, serif;
-    font-size: clamp(2.4rem, 4vw, 3.6rem);
+    font-size: clamp(2.2rem, 3.5vw, 3.2rem);
     line-height: 1.15;
     text-align: center;
     margin-bottom: 0.5rem;
@@ -124,12 +124,12 @@ main {
 section {
     max-width: 1200px;
     margin: 0 auto;
-    padding: clamp(4rem, 8vw, 6rem) clamp(1.25rem, 4vw, 3rem);
+    padding: clamp(3rem, 6vw, 4.5rem) clamp(1.25rem, 4vw, 3rem);
 }
 
 #home {
     position: relative;
-    min-height: 76vh;
+    min-height: 70vh;
     display: grid;
     grid-template-columns: 1.3fr 0.9fr;
     align-items: center;
@@ -234,9 +234,9 @@ section {
 
 #home h2 {
     font-family: "Cormorant Garamond", Georgia, serif;
-    font-size: clamp(3.2rem, 6.3vw, 6rem);
+    font-size: clamp(3rem, 5.3vw, 5.2rem);
     font-weight: 600;
-    line-height: 0.92;
+    line-height: 0.96;
     max-width: 760px;
     margin-bottom: 1.25rem;
 }
@@ -689,27 +689,28 @@ footer {
     }
 
     header h1 {
-        padding-top: 0.75rem;
-        font-size: 2rem;
-        margin-bottom: 0.2rem;
+        padding-top: 0.45rem;
+        font-size: 1.75rem;
+        margin-bottom: 0.1rem;
     }
 
     header p {
-        font-size: 0.78rem;
-        margin-bottom: 0.35rem;
+        font-size: 0.72rem;
+        margin-bottom: 0.2rem;
     }
 
     nav {
         display: grid;
         grid-template-columns: repeat(3, minmax(0, 1fr));
-        gap: 0.25rem 0.5rem;
-        padding-bottom: 0.55rem;
+        gap: 0.1rem 0.5rem;
+        padding-bottom: 0.35rem;
     }
 
     nav a {
         min-width: 0;
-        font-size: 0.66rem;
+        font-size: 0.62rem;
         letter-spacing: 0.025em;
+        padding: 0.25rem 0.1rem;
         white-space: nowrap;
     }
 
@@ -730,18 +731,18 @@ footer {
     }
 
     .hero-image-card {
-        width: min(100%, 300px);
-        height: 300px;
+        width: min(100%, 260px);
+        height: 260px;
     }
 
     .profile-image {
-        width: 200px;
-        height: 200px;
+        width: 180px;
+        height: 180px;
     }
 
     #home h2 {
         text-wrap: balance;
-        font-size: clamp(2.5rem, 11vw, 3.7rem);
+        font-size: clamp(2.25rem, 10vw, 3rem);
     }
 
     #home p {
